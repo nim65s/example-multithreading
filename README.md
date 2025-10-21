@@ -36,3 +36,13 @@ $ ./pool.py
 total: 4.037198985000032
 mean: 1.009299746250008
 ```
+
+## Idem, mais avec des threads
+
+```bash
+$ ./threads.py
+total: 4.547516429000098
+mean: 1.1368791072500244
+```
+
+NB: On s’attendrait à ce que des threads aillent plus vite, mais on a bien fait de mesurer: ici, dans notre cas, les threads sont ~13% plus lent que les process
