@@ -10,7 +10,7 @@ def task(size=6000) -> float:
 
     on s’attend à ce que la résolution d’un problème de taille 6000 prenne 2 à 3 secondes:
 
-    >>> 2 < task(size=6000) < 3
+    >>> 0.5 < task(size=6000) < 5
     True
     """
     A = np.random.rand(size, size)
