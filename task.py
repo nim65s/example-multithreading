@@ -8,7 +8,7 @@ def task(size=6000):
     b = np.random.rand(size)
 
     start = perf_counter()
-    x = np.linalg.solve(A, b)
+    np.linalg.solve(A, b)
     end = perf_counter()
 
     print(end - start)
