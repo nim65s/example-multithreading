@@ -28,3 +28,11 @@ $ ./sub.py
 total: 4.221463750999646
 mean: 1.0553659377499116
 ```
+
+## Idem, mais avec un ProcessPoolExecutor
+
+```bash
+$ ./pool.py
+total: 4.037198985000032
+mean: 1.009299746250008
+```
