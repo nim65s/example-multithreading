@@ -5,6 +5,14 @@ import numpy as np
 
 
 def task(size=6000) -> float:
+    """
+    chronomètre le temps de résolution d’un système Ax=b de taille `size`.
+
+    on s’attend à ce que la résolution d’un problème de taille 6000 prenne 2 à 3 secondes:
+
+    >>> 2 < task(size=6000) < 3
+    True
+    """
     A = np.random.rand(size, size)
     b = np.random.rand(size)
 
