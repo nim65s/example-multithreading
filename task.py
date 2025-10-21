@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 from time import perf_counter
 
 import numpy as np
