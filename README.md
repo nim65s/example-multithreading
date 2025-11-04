@@ -39,7 +39,7 @@ total: 4.037198985000032
 mean: 1.009299746250008
 ```
 
-## Idem, mais avec des threads
+## Idem, mais avec des threads
 
 ```bash
 $ ./threads.py
