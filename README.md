@@ -68,3 +68,17 @@ mean: 0.016072773939999934
 ```
 
 Si on indique à un executeur asynchrone quand nos opérations peuvent être mises en attente, il peut très efficacement jongler entre des centaines de tâches.
+
+## Free Threaded Python interpreter
+
+```bash
+$ uv run --python 3.14 gil.py
+total: 6.111903016000269
+mean: 1.5279757540000674
+```
+
+```bash
+uv run --python 3.14t gil.py
+total: 1.8368778059998476
+mean: 0.4592194514999619
+```
