@@ -48,3 +48,13 @@ mean: 1.1368791072500244
 ```
 
 NB: On s’attendrait à ce que des threads aillent plus vite, mais on a bien fait de mesurer: ici, dans notre cas, les threads sont ~13% plus lent que les process
+
+## Des threads pour faire des requêtes HTTP
+
+```bash
+$ ./threads_http.py
+total: 7.1779993729999205
+mean: 0.0717799937299992
+```
+
+Chaque requête met strictement plus d’une seconde, mais en en lançant 100 en parallèle, on finit en 7s
