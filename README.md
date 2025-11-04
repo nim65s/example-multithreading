@@ -1,11 +1,12 @@
-# Example multithreading
+# Example multithreading
 
 support de cours 5A SRI 2025-2026
 
 ## Stream
 
 Séance 1: https://asciinema.org/s/o0TMSfke5sgf4aEY
-Séance 1: https://asciinema.org/s/Rq07rFSCYThyvwjW
+
+Séance 2: https://asciinema.org/s/Rq07rFSCYThyvwjW
 
 ## Lancement d’une tâche "longue"
 
