@@ -58,3 +58,13 @@ mean: 0.0717799937299992
 ```
 
 Chaque requête met strictement plus d’une seconde, mais en en lançant 100 en parallèle, on finit en 7s
+
+## Programation asynchrone
+
+```bash
+$ ./async_http.py
+total: 1.6072773939999934
+mean: 0.016072773939999934
+```
+
+Si on indique à un executeur asynchrone quand nos opérations peuvent être mises en attente, il peut très efficacement jongler entre des centaines de tâches.
