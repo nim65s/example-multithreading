@@ -98,8 +98,14 @@ mean: 0.4592194514999619
 c++ threads.cpp -o threads && ./threads
 ```
 
-## Deadlocks
+### Deadlocks
 
 ```bash
 c++ banque.cpp -o banque && ./banque
+```
+
+### Atomics
+
+```bash
+c++ atomic.cpp -o atomic && ./atomic
 ```
