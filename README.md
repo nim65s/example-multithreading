@@ -8,6 +8,8 @@ Séance 1: https://asciinema.org/s/o0TMSfke5sgf4aEY
 
 Séance 2: https://asciinema.org/s/Rq07rFSCYThyvwjW
 
+Séance 3:  https://asciinema.org/s/pkCAZ6oX3VrRMYjr
+
 ## Lancement d’une tâche "longue"
 
 Affiche le temps nécessaire à la résolution d’un problème linéaire de taille 6000: `Ax=b`
