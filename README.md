@@ -87,3 +87,11 @@ uv run --python 3.14t gil.py
 total: 1.8368778059998476
 mean: 0.4592194514999619
 ```
+
+## C++
+
+### Threads, Mutex & Locks
+
+```bash
+c++ threads.cpp -o threads && ./threads
+```
