@@ -115,3 +115,9 @@ c++ atomic.cpp -o atomic && ./atomic
 ```bash
 c++ async.cpp -o async && ./async
 ```
+
+### OpenMP
+
+```bash
+g++ -fopenmp openmp.cpp -o openmp  && ./openmp
+```
