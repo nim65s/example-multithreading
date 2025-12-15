@@ -10,7 +10,10 @@ Séance 2: https://asciinema.org/s/Rq07rFSCYThyvwjW
 
 Séance 3:  https://asciinema.org/s/pkCAZ6oX3VrRMYjr
 
-## Lancement d’une tâche "longue"
+
+## Python
+
+### Lancement d’une tâche "longue"
 
 Affiche le temps nécessaire à la résolution d’un problème linéaire de taille 6000: `Ax=b`
 
@@ -19,7 +22,7 @@ $ ./task.py
 2.9041853889998492
 ```
 
-## Lancement de plusieurs process en parallèle
+### Lancement de plusieurs process en parallèle
 
 Utilise la librairie `subprocess` de python:
 
@@ -33,7 +36,7 @@ total: 4.221463750999646
 mean: 1.0553659377499116
 ```
 
-## Idem, mais avec un ProcessPoolExecutor
+### Idem, mais avec un ProcessPoolExecutor
 
 ```bash
 $ ./pool.py
@@ -41,7 +44,7 @@ total: 4.037198985000032
 mean: 1.009299746250008
 ```
 
-## Idem, mais avec des threads
+### Idem, mais avec des threads
 
 ```bash
 $ ./threads.py
@@ -51,7 +54,7 @@ mean: 1.1368791072500244
 
 NB: On s’attendrait à ce que des threads aillent plus vite, mais on a bien fait de mesurer: ici, dans notre cas, les threads sont ~13% plus lent que les process
 
-## Des threads pour faire des requêtes HTTP
+### Des threads pour faire des requêtes HTTP
 
 ```bash
 $ ./threads_http.py
@@ -61,7 +64,7 @@ mean: 0.0717799937299992
 
 Chaque requête met strictement plus d’une seconde, mais en en lançant 100 en parallèle, on finit en 7s
 
-## Programation asynchrone
+### Programation asynchrone
 
 ```bash
 $ ./async_http.py
@@ -71,7 +74,7 @@ mean: 0.016072773939999934
 
 Si on indique à un executeur asynchrone quand nos opérations peuvent être mises en attente, il peut très efficacement jongler entre des centaines de tâches.
 
-## Free Threaded Python interpreter
+### Free Threaded Python interpreter
 
 ```bash
 $ uv run --python 3.14 gil.py
