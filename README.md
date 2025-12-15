@@ -90,6 +90,8 @@ mean: 0.4592194514999619
 
 ## C++
 
+<https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines>
+
 ### Threads, Mutex & Locks
 
 ```bash
